@@ -16,4 +16,4 @@ functions:
           cors: true
           request:
             schema:
-              application/json: ${file(helloSchema.json)}
+              application/json: ${file(schema.json)}
